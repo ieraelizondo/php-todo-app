@@ -42,8 +42,6 @@ else
 		$nombre=$_SESSION['nomusu']." ".$_SESSION['ape1'];
 		
 		echo '<script>alert("Bienvenido '.$nombre.'")</script>';		
-		//mandar al inicio
-		echo "<script>location.href='inicio.php'</script>";
 	}
 }
 
