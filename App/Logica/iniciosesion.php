@@ -45,6 +45,6 @@ else
 	}
 }
 
-$conex->close;
+$conex->close();
 
 ?>

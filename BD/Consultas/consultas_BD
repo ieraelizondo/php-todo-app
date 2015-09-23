@@ -1,0 +1,8 @@
+--Sacar datos de LISTAS COMPARTIDAS
+
+SELECT lis.id_usuario as 'Propietario', usu.id_usuario,usu.nombre,usu.apellido1,email,lis.id_lista,lis.titulo,tar.id_tarea,tar.contenido
+from usuarios as usu JOIN listascompartidas as lc
+ON usu.id_usuario=lc.id_usuario
+JOIN listas as lis ON lis.id_lista=lc.id_lista
+JOIN tareas as tar ON tar.id_lista=lc.id_lista
+WHERE lc.id_usuario='chris'
