@@ -1,4 +1,22 @@
-<!DOCTYPE html>
+<?php
+require "../BD/clases/conexion.php";
+require "../BD/clases/insertar_usuario.php";
+
+if (isset($_POST['insertar']))
+{
+	$model=new insertar();
+	
+	$model->id=htmlspecialchars($_POST['txt_Usuario']);
+	$model->pass=htmlspecialchars($_POST['txt_Pass']);
+	$model->nombre=htmlspecialchars($_POST['txt_Nombre']);
+	$model->apellido1=htmlspecialchars($_POST['txt_Apellido1']);
+	$model->apellido2=htmlspecialchars($_POST['txt_Apellido2']);
+	$model->email=htmlspecialchars($_POST['txt_Email']);
+	$model->insert();
+
+}
+?>
+
 <html>
 
 <head>
@@ -9,7 +27,7 @@
 <body>
 	<h1>Nuevo usuario</h1>
     <div id="Registro">
-	    <form action="./Logica/registro.php" method="post">
+	    <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
 		    <table>
 			    <tr>
 				    <td><label>Usuario</label></td>
@@ -38,12 +56,13 @@
                 </tr>
                 <tr>
                     <td><label>E-mail</label></td>
-				    <td><input name="txt_Email" type="text" ></td>
+				    <td><input name="txt_Email" type="email" ></td>
                 </tr>
                 <tr>
                     <td><input name="bt_Registro" type="submit" value="Registrarse"></td>
                 </tr>
 		    </table>
+		    <input type="hidden" name="insertar"/>
 	    </form>
     </div>
 </body>

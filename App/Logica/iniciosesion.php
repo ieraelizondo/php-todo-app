@@ -1,20 +1,31 @@
 <?php
+
+//PDO
+
+try
+{
+	$conex= new PDO('mysqli:host=localhost;dbname=apptarea','apptarea','apptarea');
+
+} catch(PDOException $ex){
+	echo $e->getMessage()."<br>";
+	die();
+}
 // Conectando, seleccionando la base de datos
-$usuario=$_POST['txtusuario'];
-$pass=$_POST['txtpass'];
+//$usuario=$_POST['txtusuario'];
+//$pass=$_POST['txtpass'];
 
 $consulta="select id_usuario,pass,nombre,apellido1 FROM usuarios where id_usuario='".$usuario."'";
-$conex= new mysqli('localhost','apptarea','apptarea','apptarea');
-if ($conex->connect_errno)
+//$conex= new mysqli('localhost','apptarea','apptarea','apptarea');
+/*if ($conex->connect_errno)
 {
 	die("Error al conectar. ".$conex->connect_errno);
 }
 else
 {
 	//echo "Conexion OK<br>";
-}
+}*/
 
-$resultado = $conex->query($consulta);
+//$resultado = $conex->query($consulta);
 
 if (!$fila=mysqli_fetch_array($resultado))//si no devuelve nada --> no existe el usuario
 {
