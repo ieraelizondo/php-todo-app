@@ -7,9 +7,10 @@ class Conexion{
 		$usuario="apptarea";
 		$password="apptarea";
 		$host="localhost";
-		$bd="apptarea";
+		$db="apptarea";
 
-		return $Conexion=new PDO("mysql:host=$host;dbname=$db",$usuario,$password);
+		return $conexion=new PDO("mysql:host=".$host.";dbname=".$db.",".$usuario.",".$password);
+		echo $conexion;
 	}
 }
 

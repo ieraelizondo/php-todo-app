@@ -42,6 +42,11 @@ class insertar
 		{
 			echo $comand;
 			$consulta->execute();
+			if($consulta->execute()->rowCount()==0)
+			{
+				echo "<script>alert('Usuario ya existe.')</script>";
+
+			}
 			echo "<script>alert('Usuario registrado correctamente.')</script>";
 		}
 	}

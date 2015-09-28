@@ -1,0 +1,521 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"conne",
+				"connect_errno"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"Texto",
+				"TextoMayor"
+			],
+			[
+				"texto",
+				"Textomayor"
+			],
+			[
+				"text",
+				"TextoMayor"
+			],
+			[
+				"te",
+				"TextoMayor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "{\n  \"folders\":\n  [\n    {\n    \"follow_symlinks\": true,\n    \"path\": \"/home/ierai/Escritorio/Servidor/PHP/todoapp\"\n    }\n  ],\n  \"settings\": {\n      \"xdebug\": {\n          \"url\": \"http://http://localhost/workspace/Servidor/PHP/todoapp/\"\n      }\n  }\n}",
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		},
+		{
+			"file": "BD/clases/conexion.php",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "App/form_registro.php",
+			"settings":
+			{
+				"buffer_size": 2124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "BD/clases/insertar_usuario.php",
+			"settings":
+			{
+				"buffer_size": 1561,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ierai/.config/sublime-text-2/Packages/Xdebug Client/Xdebug.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 4570,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$_COOKIE = array[4]\n	$_COOKIE['PHPSESSID'] = (string) 26oodfm390n5uhq1augq0g4n23\n	$_COOKIE['ce796499cd332dd2b24b0a22473552a7'] = (string) b0h8kk7hrph5a25h7dvl5vh5k0\n	$_COOKIE['f695af75c540336c2495970a95777877'] = (string) pk6sk5niq2e6ojk71l3h851gu4\n	$_COOKIE['XDEBUG_SESSION'] = (string) XDEBUG_ECLIPSE\n$_ENV = array[0]\n$_FILES = array[0]\n$_GET = array[0]\n$_POST = array[9]\n	$_POST['txt_Usuario'] = (string) ierai\n	$_POST['txt_Pass'] = (string) ieraie\n	$_POST['txt_PassValid'] = (string) ierai\n	$_POST['txt_Nombre'] = (string) ierai\n	$_POST['txt_Apellido1'] = (string) ierai\n	$_POST['txt_Apellido2'] = <string>\n	$_POST['txt_Email'] = <string>\n	$_POST['bt_Registro'] = (string) Registrarse\n	$_POST['insertar'] = <string>\n$_REQUEST = array[9]\n	$_REQUEST['txt_Usuario'] = (string) ierai\n	$_REQUEST['txt_Pass'] = (string) ieraie\n	$_REQUEST['txt_PassValid'] = (string) ierai\n	$_REQUEST['txt_Nombre'] = (string) ierai\n	$_REQUEST['txt_Apellido1'] = (string) ierai\n	$_REQUEST['txt_Apellido2'] = <string>\n	$_REQUEST['txt_Email'] = <string>\n	$_REQUEST['bt_Registro'] = (string) Registrarse\n	$_REQUEST['insertar'] = <string>\n$_SERVER = array[36]\n	$_SERVER['HTTP_HOST'] = (string) localhost\n	$_SERVER['HTTP_CONNECTION'] = (string) keep-alive\n	$_SERVER['CONTENT_LENGTH'] = (string) 150\n	$_SERVER['HTTP_CACHE_CONTROL'] = (string) max-age=0\n	$_SERVER['HTTP_ACCEPT'] = (string) text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n	$_SERVER['HTTP_ORIGIN'] = (string) http://localhost\n	$_SERVER['HTTP_UPGRADE_INSECURE_REQUESTS'] = (string) 1\n	$_SERVER['HTTP_USER_AGENT'] = (string) Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n	$_SERVER['CONTENT_TYPE'] = (string) application/x-www-form-urlencoded\n	$_SERVER['HTTP_REFERER'] = (string) http://localhost/workspace/Servidor/PHP/todoapp/App/form_registro.php\n	$_SERVER['HTTP_ACCEPT_ENCODING'] = (string) gzip, deflate\n	$_SERVER['HTTP_ACCEPT_LANGUAGE'] = (string) es-ES,es;q=0.8\n	$_SERVER['HTTP_COOKIE'] = (string) PHPSESSID=26oodfm390n5uhq1augq0g4n23; ce796499cd332dd2b24b0a22473552a7=b0h8kk7hrph5a25h7dvl5vh5k0; f695af75c540336c2495970a95777877=pk6sk5niq2e6ojk71l3h851gu4; XDEBUG_SESSION=XDEBUG_ECLIPSE\n	$_SERVER['PATH'] = (string) /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\n	$_SERVER['SERVER_SIGNATURE'] = (string) <address>Apache/2.4.16 (Ubuntu) Server at localhost Port 80</address> \n	$_SERVER['SERVER_SOFTWARE'] = (string) Apache/2.4.16 (Ubuntu)\n	$_SERVER['SERVER_NAME'] = (string) localhost\n	$_SERVER['SERVER_ADDR'] = (string) 127.0.0.1\n	$_SERVER['SERVER_PORT'] = (string) 80\n	$_SERVER['REMOTE_ADDR'] = (string) 127.0.0.1\n	$_SERVER['DOCUMENT_ROOT'] = (string) /var/www/html\n	$_SERVER['REQUEST_SCHEME'] = (string) http\n	$_SERVER['CONTEXT_PREFIX'] = <string>\n	$_SERVER['CONTEXT_DOCUMENT_ROOT'] = (string) /var/www/html\n	$_SERVER['SERVER_ADMIN'] = (string) webmaster@localhost\n	$_SERVER['SCRIPT_FILENAME'] = (string) /var/www/html/workspace/Servidor/PHP/todoapp/App/form_registro.php\n	$_SERVER['REMOTE_PORT'] = (string) 48904\n	$_SERVER['GATEWAY_INTERFACE'] = (string) CGI/1.1\n	$_SERVER['SERVER_PROTOCOL'] = (string) HTTP/1.1\n	$_SERVER['REQUEST_METHOD'] = (string) POST\n	$_SERVER['QUERY_STRING'] = <string>\n	$_SERVER['REQUEST_URI'] = (string) /workspace/Servidor/PHP/todoapp/App/form_registro.php\n	...\n$model = insertar[6]\n	$model->id = (string) ierai\n	$model->pass = (string) ieraie\n	$model->nombre = (string) ierai\n	$model->apellido1 = (string) ierai\n	$model->apellido2 = <string>\n	$model->email = <string>\n",
+			"settings":
+			{
+				"buffer_size": 3538,
+				"line_ending": "Unix",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Watch",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "[0] file:///home/ierai/Escritorio/Servidor/PHP/todoapp/App/form_registro.php.{main}:15\n",
+			"settings":
+			{
+				"buffer_size": 87,
+				"line_ending": "Unix",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> /home/ierai/Escritorio/Servidor/PHP/todoapp/App/form_registro.php\n	|+| 15\n=> /home/ierai/Escritorio/Servidor/PHP/todoapp/BD/clases/conexion.php\n	|+| 10\n",
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ierai/Escritorio/cliente/EjerJavascript/cambiocolor.html",
+		"/home/ierai/Escritorio/EjerJavascript/javascript1.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "BD/clases/conexion.php",
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "App/form_registro.php",
+					"settings":
+					{
+						"buffer_size": 2124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "BD/clases/insertar_usuario.php",
+					"settings":
+					{
+						"buffer_size": 1561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								716,
+								716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/ierai/.config/sublime-text-2/Packages/Xdebug Client/Xdebug.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 4570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 3538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3538,
+								3538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 129.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.7,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.xdebug":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
