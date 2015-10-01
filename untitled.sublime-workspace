@@ -77,10 +77,10 @@
 			}
 		},
 		{
-			"contents": "$_COOKIE = array[4]\n	$_COOKIE['PHPSESSID'] = (string) 26oodfm390n5uhq1augq0g4n23\n	$_COOKIE['ce796499cd332dd2b24b0a22473552a7'] = (string) b0h8kk7hrph5a25h7dvl5vh5k0\n	$_COOKIE['f695af75c540336c2495970a95777877'] = (string) pk6sk5niq2e6ojk71l3h851gu4\n	$_COOKIE['XDEBUG_SESSION'] = (string) XDEBUG_ECLIPSE\n$_ENV = array[0]\n$_FILES = array[0]\n$_GET = array[0]\n$_POST = array[9]\n	$_POST['txt_Usuario'] = (string) ierai\n	$_POST['txt_Pass'] = (string) ieraie\n	$_POST['txt_PassValid'] = (string) ierai\n	$_POST['txt_Nombre'] = (string) ierai\n	$_POST['txt_Apellido1'] = (string) ierai\n	$_POST['txt_Apellido2'] = <string>\n	$_POST['txt_Email'] = <string>\n	$_POST['bt_Registro'] = (string) Registrarse\n	$_POST['insertar'] = <string>\n$_REQUEST = array[9]\n	$_REQUEST['txt_Usuario'] = (string) ierai\n	$_REQUEST['txt_Pass'] = (string) ieraie\n	$_REQUEST['txt_PassValid'] = (string) ierai\n	$_REQUEST['txt_Nombre'] = (string) ierai\n	$_REQUEST['txt_Apellido1'] = (string) ierai\n	$_REQUEST['txt_Apellido2'] = <string>\n	$_REQUEST['txt_Email'] = <string>\n	$_REQUEST['bt_Registro'] = (string) Registrarse\n	$_REQUEST['insertar'] = <string>\n$_SERVER = array[36]\n	$_SERVER['HTTP_HOST'] = (string) localhost\n	$_SERVER['HTTP_CONNECTION'] = (string) keep-alive\n	$_SERVER['CONTENT_LENGTH'] = (string) 150\n	$_SERVER['HTTP_CACHE_CONTROL'] = (string) max-age=0\n	$_SERVER['HTTP_ACCEPT'] = (string) text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n	$_SERVER['HTTP_ORIGIN'] = (string) http://localhost\n	$_SERVER['HTTP_UPGRADE_INSECURE_REQUESTS'] = (string) 1\n	$_SERVER['HTTP_USER_AGENT'] = (string) Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n	$_SERVER['CONTENT_TYPE'] = (string) application/x-www-form-urlencoded\n	$_SERVER['HTTP_REFERER'] = (string) http://localhost/workspace/Servidor/PHP/todoapp/App/form_registro.php\n	$_SERVER['HTTP_ACCEPT_ENCODING'] = (string) gzip, deflate\n	$_SERVER['HTTP_ACCEPT_LANGUAGE'] = (string) es-ES,es;q=0.8\n	$_SERVER['HTTP_COOKIE'] = (string) PHPSESSID=26oodfm390n5uhq1augq0g4n23; ce796499cd332dd2b24b0a22473552a7=b0h8kk7hrph5a25h7dvl5vh5k0; f695af75c540336c2495970a95777877=pk6sk5niq2e6ojk71l3h851gu4; XDEBUG_SESSION=XDEBUG_ECLIPSE\n	$_SERVER['PATH'] = (string) /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\n	$_SERVER['SERVER_SIGNATURE'] = (string) <address>Apache/2.4.16 (Ubuntu) Server at localhost Port 80</address> \n	$_SERVER['SERVER_SOFTWARE'] = (string) Apache/2.4.16 (Ubuntu)\n	$_SERVER['SERVER_NAME'] = (string) localhost\n	$_SERVER['SERVER_ADDR'] = (string) 127.0.0.1\n	$_SERVER['SERVER_PORT'] = (string) 80\n	$_SERVER['REMOTE_ADDR'] = (string) 127.0.0.1\n	$_SERVER['DOCUMENT_ROOT'] = (string) /var/www/html\n	$_SERVER['REQUEST_SCHEME'] = (string) http\n	$_SERVER['CONTEXT_PREFIX'] = <string>\n	$_SERVER['CONTEXT_DOCUMENT_ROOT'] = (string) /var/www/html\n	$_SERVER['SERVER_ADMIN'] = (string) webmaster@localhost\n	$_SERVER['SCRIPT_FILENAME'] = (string) /var/www/html/workspace/Servidor/PHP/todoapp/App/form_registro.php\n	$_SERVER['REMOTE_PORT'] = (string) 48904\n	$_SERVER['GATEWAY_INTERFACE'] = (string) CGI/1.1\n	$_SERVER['SERVER_PROTOCOL'] = (string) HTTP/1.1\n	$_SERVER['REQUEST_METHOD'] = (string) POST\n	$_SERVER['QUERY_STRING'] = <string>\n	$_SERVER['REQUEST_URI'] = (string) /workspace/Servidor/PHP/todoapp/App/form_registro.php\n	...\n$model = insertar[6]\n	$model->id = (string) ierai\n	$model->pass = (string) ieraie\n	$model->nombre = (string) ierai\n	$model->apellido1 = (string) ierai\n	$model->apellido2 = <string>\n	$model->email = <string>\n",
+			"contents": "",
 			"settings":
 			{
-				"buffer_size": 3538,
+				"buffer_size": 0,
 				"line_ending": "Unix",
 				"name": "Xdebug Context",
 				"read_only": true,
@@ -99,10 +99,10 @@
 			}
 		},
 		{
-			"contents": "[0] file:///home/ierai/Escritorio/Servidor/PHP/todoapp/App/form_registro.php.{main}:15\n",
+			"contents": "",
 			"settings":
 			{
-				"buffer_size": 87,
+				"buffer_size": 0,
 				"line_ending": "Unix",
 				"name": "Xdebug Stack",
 				"read_only": true,
@@ -254,8 +254,8 @@
 						"selection":
 						[
 							[
-								443,
-								443
+								121,
+								121
 							]
 						],
 						"settings":
@@ -333,20 +333,21 @@
 					"buffer": 5,
 					"settings":
 					{
-						"buffer_size": 3538,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3538,
-								3538
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
@@ -391,15 +392,15 @@
 					"buffer": 7,
 					"settings":
 					{
-						"buffer_size": 87,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								87,
-								87
+								0,
+								0
 							]
 						],
 						"settings":
@@ -407,7 +408,7 @@
 							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
 							"word_wrap": false
 						},
-						"translation.x": 129.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},

@@ -1,15 +1,17 @@
 <?php
-
+require_once("BD/clases/conexion.php");
 //PDO
 
 try
 {
-	$conex= new PDO('mysqli:host=localhost;dbname=apptarea','apptarea','apptarea');
+	$modelo= new Conexion();
+	$conex=$modelo->conectar();
 
 } catch(PDOException $ex){
 	echo $e->getMessage()."<br>";
 	die();
 }
+
 // Conectando, seleccionando la base de datos
 //$usuario=$_POST['txtusuario'];
 //$pass=$_POST['txtpass'];
@@ -25,7 +27,7 @@ else
 	//echo "Conexion OK<br>";
 }*/
 
-//$resultado = $conex->query($consulta);
+$resultado = $conex->query($consulta);
 
 if (!$fila=mysqli_fetch_array($resultado))//si no devuelve nada --> no existe el usuario
 {
