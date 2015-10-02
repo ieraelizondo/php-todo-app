@@ -2,6 +2,33 @@
 	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 		<title>Registro</title>
+		<script type="text/javascript">
+			function comrobarpass()
+			{
+				var pass1,pass2;
+				pass1=document.getElementById('txt_Pass').value;
+				pass2=document.getElementById('txt_PassValid').value;
+				
+				if(pass1!="")
+				{
+					if(pass2!="")
+					{
+						if(pass1!=pass2)
+						{
+							alert('No coinciden las contraseñas.');
+							document.getElementById('txt_PassValid').focus();
+							document.getElementById('txt_Pass').style.borderColor='#e52213';
+							document.getElementById('txt_PassValid').style.borderColor='#e52213';
+						}
+					}else
+					{
+						alert('Vuelve a introducir la contraseña');
+						document.getElementById('txt_PassValid').focus();
+					}
+					
+				}
+			}
+		</script>
 	</head>
 
 	<body>
@@ -15,11 +42,11 @@
 				    </tr>
 				    <tr>
 					    <td><label>Contrase&ntilde;a</label></td>
-					    <td><input name="txt_Pass" type="password" required="required"></td>
+					    <td><input name="txt_Pass" id="txt_Pass" type="password" required="required"></td>
 				    </tr>
 				    <tr>
 					    <td><label>Repita contrase&ntilde;a</label></td>
-					    <td><input name="txt_PassValid" type="password" required="required" ></td>
+					    <td><input name="txt_PassValid" id="txt_PassValid" type="password" required="required" onblur="comrobarpass()" ></td>
 				    </tr>
 				    <tr>
 	                    <td><label>Nombre</label></td>

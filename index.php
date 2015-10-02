@@ -3,7 +3,7 @@
 <body>
  
 <h3>AppTareas</h3>
-    <div id="Inisesion" style="margin-left:50%;" width="300px">
+    <div id="Inisesion" style="margin-left:40%;" width="300px">
 	    <form action="./App/Logica/iniciosesion.php" method="post">
 		    <table>
 			    <tr>
